@@ -1,0 +1,39 @@
+# 開発用ファイル（絶対に配布しない）
+node_modules/
+src/
+package.json
+package-lock.json
+webpack.config.js
+.babelrc
+postcss.config.js
+tsconfig.json
+.eslintrc
+.editorconfig
+
+# 配布用ZIP
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ・一時ファイル
+*.log
+*.tmp
+*.temp
+*.cache
+npm-debug.log
+
+# その他
+.distignore
+.env
+.env.*
+
+# ビルドツール設定
+.cache/
