@@ -3,7 +3,7 @@
  * Plugin Name: Kashiwazaki SEO Blocks
  * Plugin URI: https://www.tsuyoshikashiwazaki.jp
  * Description: シンプルで使いやすいブロックエディタ対応のカスタムブロックプラグイン。見出しバー、ボタン、汎用ボックスを簡単に作成できます。
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: 柏崎剛 (Tsuyoshi Kashiwazaki)
  * Author URI: https://www.tsuyoshikashiwazaki.jp/profile/
  * License: GPL v2 or later
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 
 define('KSB_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('KSB_PLUGIN_PATH', plugin_dir_path(__FILE__));
-define('KSB_PLUGIN_VERSION', '1.0.0');
+define('KSB_PLUGIN_VERSION', '1.0.1');
 
 class KashiwazakiSeoBlocks {
     
