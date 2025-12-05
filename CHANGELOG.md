@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2025-12-05
+
+### Fixed
+- 吹き出しブロックのアバタープリセット適用時にカラー設定（背景色、文字色、枠線色）が反映されない問題を修正
+
+### Improved
+- プリセットに吹き出しの全スタイル設定（背景色、文字色、枠線色、枠線太さ、スタイル、しっぽ表示、最大幅）を含めるように拡張
+
 ## [1.0.2] - 2025-12-04
 
 ### Added
