@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブロック詳細 - SEO Blocks マニュアル</title>
+    <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+    <button class="hamburger-btn" aria-label="メニューを開く">&#9776;</button>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2 style="color:#fff;">SEO Blocks</h2>
+            <span class="version">v1.0.3</span>
+            <img src="images/main-visual.png" alt="" style="width:100%;border-radius:4px;margin-top:8px;">
+        </div>
+        <ul>
+            <li><a href="index.html">概要</a></li>
+            <li><a href="setup.html">インストール・使い方</a></li>
+            <li><a href="blocks.html">ブロック詳細</a></li>
+            <li><a href="troubleshooting.html">トラブルシューティング</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>ブロック詳細</h1>
+
+        <p class="lead">6種類のカスタムブロックの詳細な機能と設定項目を解説します。</p>
+
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>見出しバー</h3>
+                <p>セクション見出しを装飾的に表示</p>
+            </div>
+            <div class="feature-card">
+                <h3>ボタン</h3>
+                <p>リンク付きのCTAボタン</p>
+            </div>
+            <div class="feature-card">
+                <h3>汎用ボックス</h3>
+                <p>アイコン付きコンテンツコンテナ</p>
+            </div>
+            <div class="feature-card">
+                <h3>ボーダー</h3>
+                <p>装飾的な水平線</p>
+            </div>
+            <div class="feature-card">
+                <h3>テーブル</h3>
+                <p>レスポンシブ対応データテーブル</p>
+            </div>
+            <div class="feature-card">
+                <h3>吹き出し</h3>
+                <p>アバター付き会話形式ブロック</p>
+            </div>
+        </div>
+
+        <h2>見出しバー（Heading Bar）</h2>
+
+        <p>セクション見出しを装飾的に表示するブロックです。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>見出しレベル</strong></td>
+                    <td>H1〜H6から選択</td>
+                </tr>
+                <tr>
+                    <td><strong>背景色・テキスト色</strong></td>
+                    <td>カラーピッカーで自由設定</td>
+                </tr>
+                <tr>
+                    <td><strong>ボーダー</strong></td>
+                    <td>色・幅・角丸を設定</td>
+                </tr>
+                <tr>
+                    <td><strong>パディング・マージン</strong></td>
+                    <td>上下左右を個別に設定</td>
+                </tr>
+                <tr>
+                    <td><strong>ボックスシャドウ</strong></td>
+                    <td>影の有無を切り替え</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>ボタン（Button）</h2>
+
+        <p>リンク付きのCTAボタンブロックです。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>ボタンテキスト・URL</strong></td>
+                    <td>テキストとリンク先を設定</td>
+                </tr>
+                <tr>
+                    <td><strong>新しいタブで開く</strong></td>
+                    <td>リンクの開き方を選択</td>
+                </tr>
+                <tr>
+                    <td><strong>サイズ</strong></td>
+                    <td>小・中・大の3サイズ</td>
+                </tr>
+                <tr>
+                    <td><strong>幅</strong></td>
+                    <td>自動・全幅・カスタム幅</td>
+                </tr>
+                <tr>
+                    <td><strong>背景色・テキスト色</strong></td>
+                    <td>カラーピッカーで設定</td>
+                </tr>
+                <tr>
+                    <td><strong>ボーダー・角丸</strong></td>
+                    <td>枠線のスタイルを設定</td>
+                </tr>
+                <tr>
+                    <td><strong>ホバーアニメーション</strong></td>
+                    <td>マウスオーバー時の効果</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="callout callout-tip">
+            <p>プリセット機能でボタンスタイルを保存・再利用できます。</p>
+        </div>
+
+        <h2>汎用ボックス（Box）</h2>
+
+        <p>アイコン付きのコンテンツコンテナブロックです。内部に他のブロックをネスト可能です。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">アイコン</th>
+                    <th>用途</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>info</strong></td>
+                    <td>情報・お知らせ</td>
+                </tr>
+                <tr>
+                    <td><strong>warning</strong></td>
+                    <td>注意・警告</td>
+                </tr>
+                <tr>
+                    <td><strong>success</strong></td>
+                    <td>成功・完了</td>
+                </tr>
+                <tr>
+                    <td><strong>alert</strong></td>
+                    <td>危険・エラー</td>
+                </tr>
+                <tr>
+                    <td><strong>tip</strong></td>
+                    <td>ヒント・アドバイス</td>
+                </tr>
+                <tr>
+                    <td><strong>なし</strong></td>
+                    <td>アイコンなし</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>背景色、グラデーション、ボーダー（色・幅・スタイル・角丸）、パディング、マージン、影、最大幅、配置を設定できます。</p>
+
+        <div class="callout callout-tip">
+            <p>プリセット機能でボックススタイルを保存・再利用できます。</p>
+        </div>
+
+        <h2>ボーダー（Border）</h2>
+
+        <p>コンテンツの区切りに使う装飾的な水平線です。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>線のスタイル</strong></td>
+                    <td>実線・破線・点線・二重線</td>
+                </tr>
+                <tr>
+                    <td><strong>線の色</strong></td>
+                    <td>カラーピッカーで設定</td>
+                </tr>
+                <tr>
+                    <td><strong>線の太さ</strong></td>
+                    <td>ピクセル単位で設定</td>
+                </tr>
+                <tr>
+                    <td><strong>幅（%）</strong></td>
+                    <td>親要素に対する割合</td>
+                </tr>
+                <tr>
+                    <td><strong>マージン</strong></td>
+                    <td>上下の余白を設定</td>
+                </tr>
+                <tr>
+                    <td><strong>グラデーション</strong></td>
+                    <td>グラデーション線に対応</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>テーブル（Table）</h2>
+
+        <p>レスポンシブ対応のデータテーブルブロックです。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>行・列の追加削除</strong></td>
+                    <td>動的にサイズ変更</td>
+                </tr>
+                <tr>
+                    <td><strong>ヘッダー行</strong></td>
+                    <td>先頭行をヘッダーとして表示</td>
+                </tr>
+                <tr>
+                    <td><strong>ストライプ</strong></td>
+                    <td>交互に背景色を変更</td>
+                </tr>
+                <tr>
+                    <td><strong>ホバー効果</strong></td>
+                    <td>マウスオーバーで行をハイライト</td>
+                </tr>
+                <tr>
+                    <td><strong>横スクロール</strong></td>
+                    <td>モバイルでスクロール対応</td>
+                </tr>
+                <tr>
+                    <td><strong>セル色・テキスト色</strong></td>
+                    <td>セルごとに色を設定</td>
+                </tr>
+                <tr>
+                    <td><strong>セル配置</strong></td>
+                    <td>左・中央・右揃え</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>吹き出し（Speech Bubble）</h2>
+
+        <p>アバター付きの会話形式ブロックです。Q&amp;Aや対談記事に最適です。</p>
+
+        <h3>アバター設定</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>アバター画像</strong></td>
+                    <td>メディアライブラリから選択</td>
+                </tr>
+                <tr>
+                    <td><strong>位置</strong></td>
+                    <td>左・右</td>
+                </tr>
+                <tr>
+                    <td><strong>形状</strong></td>
+                    <td>円形・角丸・正方形</td>
+                </tr>
+                <tr>
+                    <td><strong>サイズ</strong></td>
+                    <td>ピクセル単位</td>
+                </tr>
+                <tr>
+                    <td><strong>話者名・肩書</strong></td>
+                    <td>名前とタイトルを表示</td>
+                </tr>
+                <tr>
+                    <td><strong>プロフィールURL</strong></td>
+                    <td>アバタークリック時のリンク</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>吹き出し設定</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">設定</th>
+                    <th>説明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>バブルスタイル</strong></td>
+                    <td>標準・角丸・思考（3種類）</td>
+                </tr>
+                <tr>
+                    <td><strong>背景色・テキスト色</strong></td>
+                    <td>カラーピッカーで設定</td>
+                </tr>
+                <tr>
+                    <td><strong>ボーダー</strong></td>
+                    <td>色・幅を設定</td>
+                </tr>
+                <tr>
+                    <td><strong>最大幅</strong></td>
+                    <td>パーセントで設定</td>
+                </tr>
+                <tr>
+                    <td><strong>しっぽ表示</strong></td>
+                    <td>しっぽの表示/非表示</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="callout callout-tip">
+            <p>吹き出しブロックはプリセット機能で最も活用できます。アバター・名前・スタイルをまとめて保存・再利用できます。</p>
+        </div>
+
+        <nav class="page-nav">
+            <a href="setup.html" class="prev">&laquo; インストール・使い方</a>
+            <a href="troubleshooting.html" class="next">トラブルシューティング &raquo;</a>
+        </nav>
+
+        <footer class="manual-footer">
+            <p>作者: <a href="https://www.tsuyoshikashiwazaki.jp/profile/" target="_blank" rel="noopener">柏崎剛（Tsuyoshi Kashiwazaki）</a></p>
+            <p>プラグイン: Kashiwazaki SEO Blocks v1.0.3</p>
+        </footer>
+    </main>
+    <div class="lightbox"></div>
+    <script src="js/manual.js?v=1"></script>
+</body>
+</html>

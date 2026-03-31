@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashiwazaki SEO Blocks マニュアル - SEO Blocks マニュアル</title>
+    <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+    <button class="hamburger-btn" aria-label="メニューを開く">&#9776;</button>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2 style="color:#fff;">SEO Blocks</h2>
+            <span class="version">v1.0.3</span>
+            <img src="images/main-visual.png" alt="" style="width:100%;border-radius:4px;margin-top:8px;">
+        </div>
+        <ul>
+            <li><a href="index.html">概要</a></li>
+            <li><a href="setup.html">インストール・使い方</a></li>
+            <li><a href="blocks.html">ブロック詳細</a></li>
+            <li><a href="troubleshooting.html">トラブルシューティング</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>Kashiwazaki SEO Blocks マニュアル</h1>
+        <img src="images/main-visual.png" alt="Kashiwazaki SEO Blocks メインビジュアル" style="width:100%;border-radius:8px;margin-bottom:24px;">
+
+        <p class="lead">WordPressのブロックエディタ（Gutenberg）専用に設計された、軽量・レスポンシブ・SEO最適化されたカスタムブロックコレクションです。</p>
+
+        <p>Kashiwazaki SEO Blocksは、SEO対策の現場で実際に必要とされるコンテンツ表現を、コードを書くことなく実現するために開発されました。見出しバー・ボタン・汎用ボックス・ボーダー・テーブル・吹き出しの6種類のブロックを提供し、すべてのブロックがセマンティックなHTML構造で出力されるため、検索エンジンにとって理解しやすいページ構造を自然に構築できます。</p>
+
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>6種類のブロック</h3>
+                <p>見出しバー・ボタン・汎用ボックス・ボーダー・テーブル・吹き出しの6ブロック</p>
+            </div>
+            <div class="feature-card">
+                <h3>プリセット機能</h3>
+                <p>吹き出し・ボタン・ボックスのスタイルを保存・再利用。一括変換にも対応</p>
+            </div>
+            <div class="feature-card">
+                <h3>使用状況ダッシュボード</h3>
+                <p>ブロックの使用統計をリアルタイムで確認。投稿ごとの使用状況も把握</p>
+            </div>
+        </div>
+
+        <h2>SEO / GEO における強み</h2>
+
+        <p>SEO（検索エンジン最適化）およびGEO（生成エンジン最適化）の両面で、コンテンツの品質と技術的な基盤を支えるプラグインです。</p>
+
+        <h3>正しい見出し階層によるページ構造の明示</h3>
+        <p>見出しバーブロックは <code>&lt;h2&gt;</code>〜<code>&lt;h6&gt;</code> の見出しレベルを選択でき、ページ内の情報階層を正しく維持できます。検索エンジンは見出しタグからページの主題・副題を判断するため、装飾目的でフォントサイズを変えるのではなく、意味的に正しい見出し構造を使うことがSEOの基本です。このブロックは見た目のカスタマイズと正しいHTMLセマンティクスを両立します。</p>
+
+        <h3>テーブルによる構造化データの提示</h3>
+        <p>テーブルブロックは <code>&lt;thead&gt;</code> / <code>&lt;tbody&gt;</code> を含む標準的なテーブル構造で出力されます。比較表・料金表・仕様一覧などの情報をテーブルで整理すると、検索エンジンがデータの関係性を理解しやすくなります。また、GEO（AI検索）においてもテーブル形式のデータは引用されやすく、AI Overviewやチャット型検索での回答ソースとして選ばれる可能性が高まります。</p>
+
+        <h3>吹き出しによる専門家コメントの視覚的表現</h3>
+        <p>吹き出しブロックを使うことで、記事内に専門家のコメントや監修者の見解を明確に区別して表示できます。これはE-E-A-T（経験・専門性・権威性・信頼性）を意識したコンテンツ設計に役立ちます。ただし、吹き出しブロック自体は構造化データ（JSON-LD等）を出力するものではないため、検索エンジンへの直接的なシグナルではなく、ユーザーと評価者に対して「誰が言っているのか」を明示するためのUI要素です。</p>
+
+        <h3>GEOを意識したコンテンツ構成</h3>
+        <p>AI検索（ChatGPT、Gemini、Perplexity等）がWebページを参照する際、明確な見出し構造・箇条書き・テーブル・注意書きといった整理されたコンテンツが優先的に引用される傾向があります。本プラグインの汎用ボックス（info / warning / tip等のアイコン付き）や見出しバーを活用して情報を視覚的・構造的に整理することで、AIが回答を生成する際のソースとして選ばれやすいページを構築できます。</p>
+
+        <h3>Core Web Vitalsへの影響を最小化</h3>
+        <p>フロントエンドCSSは8.4KB（minified）のみで、JavaScriptの読み込みはゼロです。ブロック系プラグインはページ速度に悪影響を与えがちですが、本プラグインは必要最小限のCSSだけを出力します。LCP・CLS・INPといったCore Web Vitalsの指標を悪化させないため、プラグイン導入によるページ速度の低下を心配する必要がありません。</p>
+
+        <h3>モバイルファースト対応</h3>
+        <p>すべてのブロックがレスポンシブデザインに対応しています。テーブルブロックはモバイル端末で横スクロールに自動切り替わり、吹き出しブロックはアバターの配置が画面幅に応じて調整されます。Googleはモバイルファーストインデックスを採用しており、モバイルでの表示品質はインデックスとランキングの両方に影響します。</p>
+
+        <figure class="infographic">
+            <img src="images/infographics/overview-flow.png" alt="利用可能な6種類のブロック">
+            <figcaption>利用可能な6種類のブロック</figcaption>
+        </figure>
+
+        <h2>目次</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">ページ</th>
+                    <th>内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="index.html">概要</a></td>
+                    <td>プラグインの特徴・SEO/GEOの強み・動作要件を紹介</td>
+                </tr>
+                <tr>
+                    <td><a href="setup.html">インストール・使い方</a></td>
+                    <td>インストール手順・基本操作・ダッシュボード・プリセット機能</td>
+                </tr>
+                <tr>
+                    <td><a href="blocks.html">ブロック詳細</a></td>
+                    <td>各ブロックの設定項目・オプションを詳しく解説</td>
+                </tr>
+                <tr>
+                    <td><a href="troubleshooting.html">トラブルシューティング</a></td>
+                    <td>よくある問題と解決方法・動作要件・技術仕様</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>動作要件</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">項目</th>
+                    <th>要件</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>WordPress</td>
+                    <td>6.0以上（ブロックエディタ必須）</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>7.4以上</td>
+                </tr>
+                <tr>
+                    <td>外部依存</td>
+                    <td>なし（WordPress標準のブロックエディタAPIのみ使用）</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <nav class="page-nav">
+            <span></span>
+            <a href="setup.html" class="next">インストール・使い方 &raquo;</a>
+        </nav>
+
+        <footer class="manual-footer">
+            <p>作者: <a href="https://www.tsuyoshikashiwazaki.jp/profile/" target="_blank" rel="noopener">柏崎剛（Tsuyoshi Kashiwazaki）</a></p>
+            <p>プラグイン: Kashiwazaki SEO Blocks v1.0.3</p>
+        </footer>
+    </main>
+    <div class="lightbox"></div>
+    <script src="js/manual.js?v=1"></script>
+</body>
+</html>

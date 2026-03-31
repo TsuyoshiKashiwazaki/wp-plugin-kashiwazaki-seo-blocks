@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>インストール・使い方 - SEO Blocks マニュアル</title>
+    <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+    <button class="hamburger-btn" aria-label="メニューを開く">&#9776;</button>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2 style="color:#fff;">SEO Blocks</h2>
+            <span class="version">v1.0.3</span>
+            <img src="images/main-visual.png" alt="" style="width:100%;border-radius:4px;margin-top:8px;">
+        </div>
+        <ul>
+            <li><a href="index.html">概要</a></li>
+            <li><a href="setup.html">インストール・使い方</a></li>
+            <li><a href="blocks.html">ブロック詳細</a></li>
+            <li><a href="troubleshooting.html">トラブルシューティング</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>インストール・使い方</h1>
+
+        <p class="lead">プラグインのインストールからブロックの基本的な使い方まで解説します。</p>
+
+        <h2>インストール手順</h2>
+
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-body">プラグインファイルを <code>/wp-content/plugins/</code> にアップロード</div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-body">WordPress管理画面「プラグイン」から有効化</div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-body">左メニューに「Kashiwazaki SEO Blocks」が追加される</div>
+        </div>
+
+        <div class="callout callout-tip">
+            <p>ブロックエディタ（Gutenberg）専用プラグインです。クラシックエディタでは使用できません。</p>
+        </div>
+
+        <h2>基本的な使い方</h2>
+
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-body">投稿・固定ページの編集画面でブロック追加ボタン（+）をクリック</div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-body">「Kashiwazaki SEO Blocks」カテゴリからブロックを選択</div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-body">コンテンツを入力し、右サイドバーのインスペクターパネルでスタイルをカスタマイズ</div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-body">プレビューで確認し、公開</div>
+        </div>
+
+        <h2>管理画面ダッシュボード</h2>
+
+        <div class="screenshot">
+            <img src="images/screenshots/01-dashboard.png" alt="管理画面ダッシュボード" class="lightbox-trigger">
+        </div>
+
+        <p>ダッシュボードには2つのタブがあります。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:35%;">タブ</th>
+                    <th>内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>このプラグインについて</strong></td>
+                    <td>プラグイン情報・利用可能ブロック一覧・使い方ガイド・バージョン情報</td>
+                </tr>
+                <tr>
+                    <td><strong>ブロック使用状況</strong></td>
+                    <td>ブロックごとの使用回数・使用中の投稿一覧・プリセット管理・一括変換</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>ブロック使用状況</h2>
+
+        <div class="screenshot">
+            <img src="images/screenshots/02-block-usage.png" alt="ブロック使用状況" class="lightbox-trigger">
+        </div>
+
+        <p>各ブロックの使用回数がサマリーカードで表示され、アコーディオンを開くと使用中の投稿一覧を確認できます。</p>
+
+        <h2>プリセット機能</h2>
+
+        <p>吹き出し・ボタン・ボックスの3種類のブロックでプリセット（スタイルの保存・再利用）が可能です。</p>
+
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-body">吹き出し・ボタン・ボックスブロックでスタイルを設定</div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-body">管理画面の「ブロック使用状況」タブでプリセットとして保存</div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-body">保存したプリセットを別の投稿で再利用</div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-body">一括変換機能で既存投稿のブロックスタイルを一括変更</div>
+        </div>
+
+        <div class="callout callout-warning">
+            <p>一括変換は投稿コンテンツを直接変更する不可逆操作です。実行前にバックアップを推奨します。</p>
+        </div>
+
+        <nav class="page-nav">
+            <a href="index.html" class="prev">&laquo; 概要</a>
+            <a href="blocks.html" class="next">ブロック詳細 &raquo;</a>
+        </nav>
+
+        <footer class="manual-footer">
+            <p>作者: <a href="https://www.tsuyoshikashiwazaki.jp/profile/" target="_blank" rel="noopener">柏崎剛（Tsuyoshi Kashiwazaki）</a></p>
+            <p>プラグイン: Kashiwazaki SEO Blocks v1.0.3</p>
+        </footer>
+    </main>
+    <div class="lightbox"></div>
+    <script src="js/manual.js?v=1"></script>
+</body>
+</html>
